@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Open Sans";
+}
+.container{
+    width: 95%;
+    margin: 2rem auto;
+}
+.view{
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-area{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.active-players-area{
+    width: 20%;
+    /* flex: 1; */
+    min-height: 100vh;
+    background: #fff;
+}
+.game-board button{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 3px;
+    background: white;
+    border: 0;
+    border-radius: 5px;
+    font-family: "Open Sans";
+    font-size: 2.2rem;
+}
+.game-board{
+    width: 310px;
+    background: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#game-commentary{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#restart{
+    padding: 10px 2rem;
+    margin-top: 2rem;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
