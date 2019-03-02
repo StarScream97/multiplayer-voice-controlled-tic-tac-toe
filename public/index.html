@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="view">
+        <div class="game-area">
+            <input type="text" placeholder="Username" id="username">
+            <button onclick="submitUsername()">Submit</button>
+                <h5 id="game-commentary"></h5>
+                <div class="game-board">
+                    <button id="1" onclick="clicked(this.id)"></button>
+                    <button id="2" onclick="clicked(this.id)"></button>
+                    <button id="3" onclick="clicked(this.id)"></button>
+                    <button id="4" onclick="clicked(this.id)"></button>
+                    <button id="5" onclick="clicked(this.id)"></button>
+                    <button id="6" onclick="clicked(this.id)"></button>
+                    <button id="7" onclick="clicked(this.id)"></button>
+                    <button id="8" onclick="clicked(this.id)"></button>
+                    <button id="9" onclick="clicked(this.id)"></button>
+                </div>
+                <!-- <div class="hud"> -->
+                <button id="restart" onclick="restartGame()">Restart</button>
+                <!-- </div>             -->
+        </div>
+        <div class="active-players-area">
+            <h5>Active Players</h5>
+        </div>
+    </div>
+    
+    <!-- <script src="./wordToNumber.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <script src="./app.js"></script>
+   
+</body>
+</html>

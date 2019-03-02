@@ -1,0 +1,24 @@
+{
+  "name": "ttc",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe Multiplayer Server",
+  "main": "server.js",
+  "scripts": {
+    "server": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarScream97/multiplayer-voice-controlled-tic-tac-toe.git"
+  },
+  "author": "Manish Karki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarScream97/multiplayer-voice-controlled-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/StarScream97/multiplayer-voice-controlled-tic-tac-toe#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket-io": "^1.0.0",
+    "socket.io": "^2.2.0"
+  }
+}
